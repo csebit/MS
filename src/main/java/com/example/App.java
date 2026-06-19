@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-      ChromeOptions op=new ChromOptions();
+      ChromeOptions op=new ChromeOptions();
         op.addArguments("--headless");
         op.addArguments("--no-sandbox");
         op.addArguments("--display-dev-shm-usage");
